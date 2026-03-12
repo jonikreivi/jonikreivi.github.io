@@ -1,0 +1,24 @@
+.button-class {
+	background-color: #383636;
+	border: none;
+	color: rgb(0, 0, 0);
+	padding: 10px 20px;
+	text-align: center;
+	font-family: 'Fira Code';
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 40px;
+	align-items: center;
+}
+.normaltext-class {
+	font-family: 'Fira Code';
+	font-size: 11px;
+	white-space: pre-line;
+}
+.headtext-class{
+    font-family: 'Fira Code';
+    font-size: 14px;
+}

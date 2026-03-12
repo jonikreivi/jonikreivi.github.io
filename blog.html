@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+<head>
+	<title>jonikreivi</title>
+</head>
+
+<body style="background-color: rgb(57, 57, 94);">
+	
+
+<center>
+	<a href="index.html" class="button-class">
+      Home page</a>
+    <a href="portfolio.html" class="button-class">
+      Portfolio</a>
+    <a href="blog.html" class="button-class">
+      Blog</a>
+    <a href="contacts.html" class="button-class">
+      Contacts</a>
+</center>
+<div style="float: left; padding-left: 10%; padding-top: 10%;">
+	<p style="font-family: 'Fira Code'; font-size: 14px;"> Blog</p>
+</div>
+
+<center style="padding-top: 20%;">
+	<p class="headtext-class">
+		Using Windows VST plugins on Linux with Reaper (12.3.2026)
+	</p>
+	<p class="normaltext-class" style="padding-left: 10%; padding-right: 10%;">
+		I’ve been using Linux for over a year now, and transferring from Windows has been surprisingly easy. Even Reaper runs natively on Linux. All my games, apps, and drivers have worked without any problems. That was until I needed to use my Windows VST plugins in Reaper. The main VST plugin I use is Neural DSP’s Mesa Boogie Mark IIC+ Suite, which is not meant for Linux. 
+Thankfully, there is a software specifically for this situation called Yabridge. Yabridge uses Wine to run Windows .dll files and creates a wrapper that allows the DAW (in this case Reaper) to recognize the plugin on Linux. I will not go into the step-by-step setup process for Yabridge, but I will talk about the performance.
+Having low latency is crucial when recording guitar tracks. Adding another translation layer, such as Wine, could potentially introduce additional latency. However, I haven’t noticed any latency at all, which was a great surprise. The system also did not sacrifice any audio quality. It was almost like I recorded with a Windows system.
+One issue I faced after setting everything up was that the VST plugin’s interface did not respond to any of my mouse clicks. After tinkering with Wine’s settings, I was able to solve the problem. I just told to Wine that the VST opens in a virtual desktop environment.
+Now I have a fully working guitar recording setup on Linux. I really recommend Yabridge, if you have the same problem. Here is the link “https://github.com/robbertvdh/yabridge”
+        
+
+
+	</p>
+</center>
+
+</body>
+
+
+</html>      
